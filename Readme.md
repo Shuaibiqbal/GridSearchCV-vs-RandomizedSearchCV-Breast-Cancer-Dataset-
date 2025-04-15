@@ -11,6 +11,7 @@ It exhaustively searches through a specified hyperparameter grid.
     --> You don’t mind longer training time and want the most precise tuning.
 
 **🕒 When to use:**
+
     --> You know which parameters are important.
     --> You want to evaluate every possible combination.
     --> You’re tuning a simple or medium-sized model.
@@ -18,12 +19,14 @@ It exhaustively searches through a specified hyperparameter grid.
 
 # 🌀 Why and When to Use RandomizedSearchCV
 **✅ Why use RandomizedSearchCV:**
+
     --> It randomly samples combinations from a parameter space.
     --> It’s much faster than grid search when the parameter space is large.
     --> You can limit the number of iterations, making it more flexible.
     --> Good at finding good results quickly, especially with non-linear models.
 
 **🕒 When to use:**
+
     --> You have many hyperparameters and a large search space.
     --> You’re unsure which values to try.
     --> You’re working with limited time or resources.
