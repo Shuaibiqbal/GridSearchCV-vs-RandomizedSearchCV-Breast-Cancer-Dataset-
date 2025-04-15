@@ -31,3 +31,19 @@ It exhaustively searches through a specified hyperparameter grid.
     --> You’re unsure which values to try.
     --> You’re working with limited time or resources.
     --> You want a quick and reasonable solution, not necessarily the optimal one.
+
+
+## ✅ When to Use Each (from the code example)
+
+**Scenario**	**Recommended Method**
+
+    --> You want best performance, time is okay	        ✅ GridSearchCV
+    --> You want speed and can tolerate small loss	    ⚡ RandomizedSearchCV
+    --> Hyperparameter space is small (like in code)	✅ GridSearchCV
+    --> Hyperparameter space is large	                ⚡ RandomizedSearchCV
+
+    GridSearchCV tried all 18 parameter combinations and gave slightly better or equal accuracy than RandomizedSearchCV, which only tried 10. So, use GridSearchCV when:
+
+        --> The parameter space is small (as in the code)
+        --> You want maximum accuracy 
+        --> And you can afford a bit more computation time.
