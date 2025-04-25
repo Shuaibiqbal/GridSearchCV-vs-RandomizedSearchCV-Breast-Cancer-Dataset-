@@ -33,7 +33,7 @@ It exhaustively searches through a specified hyperparameter grid.
     --> You want a quick and reasonable solution, not necessarily the optimal one.
 
 
-## ✅ When to Use Each (from the code example)
+## ✅ When to Use Each (from the code example) --> for more clearification open notebook 
 
 **Scenario**	**Recommended Method**
 
